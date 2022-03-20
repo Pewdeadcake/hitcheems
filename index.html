@@ -21,5 +21,11 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script type="text/javascript" src="main.js"></script>
 <body bgcolor=”#800000">
-  <audio src="cheems.mp3" autoplay></audio>
+<audio id="autoplay" controls>
+  <source src="cheems.mp3">
+</audio>
+
+<script>
+	document.getElementById('autoplay').play();
+</script>
 </html>
